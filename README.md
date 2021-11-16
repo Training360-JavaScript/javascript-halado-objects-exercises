@@ -1,7 +1,7 @@
 # Feladatok
 
 **A 18-objects -> 01 -> solution mappában dolgozz!**  
-**A HTML-fájlokat ne módosítsd!**  
+**A HTML fájlokat ne módosítsd!**  
 **Az export utasításokat hagyd a fájlok végén!**  
 **Az `npm run test:objects` parancs futtatásával tudod futtatni a teszteket!**  
 
@@ -34,4 +34,4 @@ Alakítsd át a következőket figyelembe véve:
     - `walk()`: speedInMph = 10
     - `eat()`:  foodName = "meat"
     - `speak()`: sound = "grrrrrr"
-- Legyen egy `firstName` és egy `lastName` getter/setter. A `firstName` a név első felét adja vissza/módosítja, míg a `lastName` a név második felét adja vissza/módosítja. Ezeket a `defineProperties` metódus segítségével add hozzá a objektumhoz a kontruktorfüggvényen belül.  
+- Legyen egy `firstName` és egy `lastName` getter/setter. A `firstName` a név első felét adja vissza/módosítja, míg a `lastName` a név második felét adja vissza/módosítja. Ezeket a `defineProperties` metódus segítségével add hozzá a objektumhoz a konstruktor függvényen belül.  

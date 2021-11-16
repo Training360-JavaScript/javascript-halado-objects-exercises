@@ -1,7 +1,7 @@
 import Walker from '../solution/js/Walker';
 
 describe('Walker ', () => {
-  test('contructor function should create a new Walker object', () => {
+  test('constructor function should create a new Walker object', () => {
     const name = 'Jane Doe';
     const state = 'almost dead';
 
@@ -11,7 +11,7 @@ describe('Walker ', () => {
     expect(walker.state).toBe(state);
   });
 
-  test('contructor function with two parameters should create a new Walker object with default values: John Doe and dead', () => {
+  test('constructor function with two parameters should create a new Walker object with default values: John Doe and dead', () => {
     const walker = new Walker();
 
     expect(walker.name).toBe('John Doe');
